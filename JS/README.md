@@ -15,3 +15,5 @@
 - [use strict](./11.md)
 - [身份证号验证](./12.md)
 - [new 操作符](./13.md)
+- [bind, apply, call 自定义](./14.md)
+- [arguments 理解](./15.md)
