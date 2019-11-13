@@ -12,3 +12,7 @@
 - [css 盒模型](./7.md)
 - [css 伪元素](./8.md)
 - [文本溢出截断省略](./9.md)
+
+## 参考
+
+- [重绘和回流（Repaint & Reflow）](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/24)
