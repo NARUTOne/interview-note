@@ -22,3 +22,17 @@
 - [深度，广度实现深拷贝](./18.md)
 - [ES5/ES6继承](./19.md)
 - [数组判断](./20.md)
+- [url参数解析](./21.md)
+- [变量声明提前](./22.md)
+
+## 参考
+
+```js
+for (var i = 0; i< 10; i++){
+   setTimeout(() => {
+    console.log(i);
+   }, 1000)
+}
+```
+
+- [数字正确输出 0 - 9](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43#issuecomment-471960211)
