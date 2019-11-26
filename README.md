@@ -24,3 +24,8 @@
 - [前端3+1](https://github.com/haizlin/fe-interview)
 - [高级前端面经](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues)
 - [前端面试手册](https://github.com/yangshun/front-end-interview-handbook/blob/master/Translations/Chinese/README.md)
+
+## future
+
+- [] 添加进issue，方便讨论
+- [] 开发小程序，在线查看
