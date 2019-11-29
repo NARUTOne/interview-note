@@ -8,7 +8,9 @@
 - [HTML label标签](./4.md)
 - [HTML viewport](./5.md)
 - [HTML meta标签](./6.md)
+- [HTML 语义化](./7.md)
 
 ## link
 
 - [web无障碍开发](https://mp.weixin.qq.com/s/3QNXBpGB0ZiroV8OGnXCbA)
+- [无缝轮播](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/108)
