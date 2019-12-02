@@ -33,6 +33,7 @@
 - [运算符优先级，赋值顺序](./29.md)
 - [数据填充Array.from](./30.md)
 - [链式函数 LazyMan类](./31.md)
+- [模拟实现一个 Promise.finally](./32.md)
 
 ## 参考
 
@@ -45,3 +46,11 @@ for (var i = 0; i< 10; i++){
 ```
 
 - [数字正确输出 0 - 9](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43#issuecomment-471960211)
+
+## 额外阅读
+
+那么 Babel 是如何把 ES6 转成 ES5 呢，其大致分为三步：
+
+- 将代码字符串解析成抽象语法树，即所谓的 AST
+- 对 AST 进行处理，在这个阶段可以对 ES6 代码进行相应转换，即转成 ES5 代码
+- 根据处理后的 AST 再生成代码字符串
