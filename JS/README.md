@@ -34,6 +34,7 @@
 - [数据填充Array.from](./30.md)
 - [链式函数 LazyMan类](./31.md)
 - [模拟实现一个 Promise.finally](./32.md)
+- [实现Promise.all](./33.md)
 
 ## 参考
 
