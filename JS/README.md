@@ -47,6 +47,8 @@ for (var i = 0; i< 10; i++){
 ```
 
 - [数字正确输出 0 - 9](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43#issuecomment-471960211)
+- [深入探究 Function & Object 鸡蛋问题](https://mp.weixin.qq.com/s/4eBdJTGBIrB5JhvRrmmbaw)
+![prototype](./imgs/prototype-layout.jpg)
 
 ## 额外阅读
 
