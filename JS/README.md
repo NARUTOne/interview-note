@@ -35,6 +35,7 @@
 - [链式函数 LazyMan类](./31.md)
 - [模拟实现一个 Promise.finally](./32.md)
 - [实现Promise.all](./33.md)
+- [柯里化函数实现](./34.md)
 
 ## 参考
 
