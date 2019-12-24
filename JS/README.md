@@ -36,6 +36,8 @@
 - [模拟实现一个 Promise.finally](./32.md)
 - [实现Promise.all](./33.md)
 - [柯里化函数实现](./34.md)
+- [实现Promise.race](./35.md)
+- [模糊搜索关键词高亮](./36.md)
 
 ## 参考
 
