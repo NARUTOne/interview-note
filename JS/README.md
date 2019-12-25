@@ -38,6 +38,8 @@
 - [柯里化函数实现](./34.md)
 - [实现Promise.race](./35.md)
 - [模糊搜索关键词高亮](./36.md)
+- [函数形参传递](./37.md)
+- [代码题](./38.md)
 
 ## 参考
 
@@ -52,6 +54,8 @@ for (var i = 0; i< 10; i++){
 - [数字正确输出 0 - 9](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43#issuecomment-471960211)
 - [深入探究 Function & Object 鸡蛋问题](https://mp.weixin.qq.com/s/4eBdJTGBIrB5JhvRrmmbaw)
 ![prototype](./imgs/prototype-layout.jpg)
+
+- [模拟实现深拷贝](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
 
 ## 额外阅读
 
