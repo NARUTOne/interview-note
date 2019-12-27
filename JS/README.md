@@ -56,6 +56,7 @@ for (var i = 0; i< 10; i++){
 ![prototype](./imgs/prototype-layout.jpg)
 
 - [模拟实现深拷贝](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
+- [input 中文输入处理](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/129#issue-446888391)
 
 ## 额外阅读
 
