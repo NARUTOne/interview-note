@@ -9,3 +9,4 @@
 ## 参考
 
 - [介绍下 HTTP(S) 中间人攻击](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/142)
+- [http1.0、1.1、2.0协议区别](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/232)
