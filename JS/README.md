@@ -46,6 +46,8 @@
 - [连续数](./42.md)
 - [转换treePath对象](./43.md)
 - [复杂数组去重](./44.md)
+- [实现一个 Dialog 类，Dialog可以创建 dialog 对话框，对话框支持可拖拽](./45.md)
+- [用 setTimeout 实现 setInterval](./46.md)
 
 ## 参考
 
