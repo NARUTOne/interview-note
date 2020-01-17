@@ -49,6 +49,9 @@
 - [实现一个 Dialog 类，Dialog可以创建 dialog 对话框，对话框支持可拖拽](./45.md)
 - [用 setTimeout 实现 setInterval](./46.md)
 - [求两个日期中间的有效日期](./47.md)
+- [数字千分符](./48.md)
+- [实现indexOf](./49.md)
+- [特定结构normalize](./50.md)
 
 ## 参考
 
@@ -66,6 +69,7 @@ for (var i = 0; i< 10; i++){
 
 - [模拟实现深拷贝](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/148)
 - [input 中文输入处理](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/129#issue-446888391)
+- [二进制、字符、base64](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/299#issuecomment-550113865)
 
 ## 额外阅读
 
