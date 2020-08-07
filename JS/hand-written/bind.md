@@ -26,7 +26,7 @@ Function.prototype.bind = function(content) {
 
 - 1.bind 的参数可以在绑定和调用的时候分两次传入
 - 2.bindArgs 是绑定时除了第一个参数以外传入的参数，args 是调用时候传入的参数，将二者拼接后一起传入
-- 3.如果使用 new 运算符构造绑定函数，则会改变 this 指向，this 指向当前的实例
+- 3.如果使用 new 运算符调用构造绑定函数，则会改变 this 指向，this 指向当前的实例 (**new 绑定 > 显式绑定 > 隐式绑定 > 默认绑定**)
 - 4.通过 Fn 链接原型，这样 fBound 就可以通过原型链(__proto__)访问父类 Fn 的属性
 
 ```js
@@ -35,11 +35,23 @@ Function.prototype.bind = function(context, ...args) {
   let bindArgs = [...args];
   function Fn () {};
   function fBound(params) {
-    let args = [...params];
-    return that.apply(this instanceof fBound ? this : context, bindArgs.concat(args));
+    let args2 = [...params];
+    return that.apply(this instanceof fBound ? this : context, bindArgs.concat(args2));
   }
   Fn.prototype = this.prototype;
   fBound.prototype = new Fn();
+  return fBound;
+}
+
+// Object.create 原型式继承
+Function.prototype.bind = function(context, ...args) {
+  let that = this;
+  let bindArgs = [...args];
+  function fBound(params) {
+    let args2 = [...params];
+    return that.apply(this instanceof fBound ? this : context, bindArgs.concat(args2));
+  }
+  fBound.prototype = Object.create(that.prototype);
   return fBound;
 }
 ```
