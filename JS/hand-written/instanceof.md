@@ -1,10 +1,14 @@
 # instanceof
 
-> instanceof 用来检测一个对象在其原型链中是否存在一个构造函数的 prototype 属性
+> instanceof 用于检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上。
 
 ## 简单实现
 
 ```js
+/*
+    right 构造函数
+    left 实例对象
+*/
 function instanceOf(left,right) {
     let proto = left.__proto__;
     let prototype = right.prototype
