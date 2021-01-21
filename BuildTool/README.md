@@ -5,6 +5,7 @@
 - [webpack 热更新原理](./1.md)
 - [webpack 中 loader 和 plugin 的区别是什么](./2.md)
 - [tree shaking](./3.md)
+- [webpack 优化手段](./4.md)
 
 ## 参考
 
