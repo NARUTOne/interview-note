@@ -7,6 +7,7 @@
 - [Link标签](./3.md)
 - [react hooks 防抖节流](./4.md)
 - [简介react hooks](./5.md)
+- [简介React-Redux](./6.md)
 
 ## 参考
 
