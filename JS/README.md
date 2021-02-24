@@ -38,7 +38,7 @@
 - [this输出——代码题](./code-fun/this-run.md)
 - [treePath 获取](./code-fun/treePath.md)
 
-暂未分类：
+其他：
 
 - [传值传址的本质](./1.md)
 - [判断数据类型](./2.md)
@@ -60,6 +60,7 @@
 - [用 setTimeout 实现 setInterval](./18.md)
 - [特定结构normalize](./19.md)
 - [垃圾回收机制](./20.md)
+- [异常处理](./21.md)
 
 ## 参考
 
