@@ -4,7 +4,7 @@
 
 ## 分类
 
-> `hand-written` 手写实现类；
+`hand-written` 手写实现类；
 
 `apply-scene` 应用场景类:
 
@@ -59,18 +59,9 @@
 - [localStorage模拟兼容](./17.md)
 - [用 setTimeout 实现 setInterval](./18.md)
 - [特定结构normalize](./19.md)
-- [垃圾回收机制](./20.md)
 - [异常处理](./21.md)
 
 ## 参考
-
-```js
-for (var i = 0; i< 10; i++){
-   setTimeout(() => {
-    console.log(i);
-   }, 1000)
-}
-```
 
 - [数字正确输出 0 - 9](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43#issuecomment-471960211)
 - [深入探究 Function & Object 鸡蛋问题](https://mp.weixin.qq.com/s/4eBdJTGBIrB5JhvRrmmbaw)
