@@ -6,6 +6,7 @@
 - [webpack 中 loader 和 plugin 的区别是什么](./2.md)
 - [tree shaking](./3.md)
 - [webpack 优化手段](./4.md)
+- [webpack 构建流程分析](./5.md)
 
 ## 参考
 
