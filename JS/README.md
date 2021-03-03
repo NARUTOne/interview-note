@@ -4,7 +4,24 @@
 
 ## 分类
 
-`hand-written` 手写实现类；
+`hand-written` 手写实现类:
+
+- [promise](./hand-written/Promise/promise.md)
+- [ajax](./hand-written/ajax.md)
+- [apply](./hand-written/apply.md)
+- [arr-flat 数组打平](./hand-written/arrflat.md)
+- [bind](./hand-written/bind.md)
+- [call](./hand-written/call.md)
+- [create-flow 实现](./hand-written/createFlow.md)
+- [debounce](./hand-written/debounce.md)
+- [indexOf](./hand-written/indexOf.md)
+- [instanceof](./hand-written/instanceof.md)
+- [iterator](./hand-written/iterator.md)
+- [jsonp](./hand-written/jsonp.md)
+- [new](./hand-written/new.md)
+- [object-create](./hand-written/objectCreate.md)
+- [throttle](./hand-written/throttle.md)
+- [mixin](./hand-written/mixin.md)
 
 `apply-scene` 应用场景类:
 

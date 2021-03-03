@@ -1,6 +1,4 @@
-# P32
-
-> Promise.finally
+# Promise.finally
 
 **⚡题目**:
 

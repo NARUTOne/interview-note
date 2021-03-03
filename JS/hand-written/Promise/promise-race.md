@@ -1,6 +1,4 @@
-# P35
-
-> `Promise.race` 实现
+# Promise.race
 
 **⚡题目**:
 

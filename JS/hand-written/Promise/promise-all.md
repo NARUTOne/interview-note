@@ -1,6 +1,4 @@
-# P33
-
-> Promise.all
+# Promise.all
 
 **⚡题目**:
 
