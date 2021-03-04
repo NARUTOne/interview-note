@@ -1,6 +1,6 @@
 # Promise 实现
 
-> 遵循 Promise/A+ 规范; `promises-aplus-tests` 进行测试 Promise 是否符合规范
+> 遵循 Promise/A+ 规范; `promises-aplus-tests` 进行测试 Promise 是否符合规范 🌖 🍖
 
 [Primise 实现](https://juejin.cn/post/6899273470623318023?utm_source=gold_browser_extension)
 
