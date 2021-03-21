@@ -12,6 +12,8 @@
 - [Vue 中的 computed 、watch 区别](./8.md)
 - [v-if、v-show、v-html 的原理是什么](./9.md)
 - [vue 数据响应式](./10.md)
+- [vue-router 导航守卫](./11.md)
+- [vuex 理解](./12.md)
 
 ## 参考
 
