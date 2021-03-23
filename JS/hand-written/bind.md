@@ -55,3 +55,37 @@ Function.prototype.bind = function(context, ...args) {
   return fBound;
 }
 ```
+
+## bindRight 实现
+
+bindRight 相当于从右往左 bind
+
+```js
+Function.prototype.bindRight = function(thisObj, ...values){
+  let fn = this, len = fn.length - values.length;
+  return function(...args){
+    let rest = [], rargs = values.reverse();
+    
+    if(len > 0){
+      rest = args.slice(0, len);
+    }
+
+    return fn.apply(thisObj, rest.concat(rargs));
+  }
+}
+
+console.log(["2","3","4"].map(parseInt)); // 2, NaN, NaN
+
+console.log(["2","3","4"].map(parseInt.bindRight(null, 10))); // 2, 3, 4
+
+function add(x, y, z){
+    return 100*x + 10 * y + z;
+}
+
+let add1 = add.bind(null, 1, 2);
+let add2 = add.bindRight(null, 1, 2);
+
+console.log(add1(3)); //123
+console.log(add2(3)); //321
+
+```
