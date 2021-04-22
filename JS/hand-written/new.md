@@ -22,7 +22,6 @@ function createNew(Con, ...args) {
   let result = Con.apply(obj, args) // 将构造函数中的this指向这个对象，并传递参数
   return result instanceof Object ? result : obj // 忽略构造函数返回的原始值  function Foo () {return 1;}
 }
-
 ```
 
 ## 优解 🔥

@@ -15,6 +15,7 @@ call 的核心原理：
 Function.prototype.call2 = function(content = window) {
   // 判断是否是underfine和null
   context = context ? Object(context) : window;
+  // 将 fun 赋值给 content.fn 进行接下来执行
   content.fn = this;
   let args = [...arguments].slice(1);
   let result = content.fn(...args);
