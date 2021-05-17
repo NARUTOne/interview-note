@@ -10,6 +10,10 @@
 - [简介React-Redux](./6.md)
 - [简介React Fiber](./7.md)
 
+## 生命周期
+
+![16.4 lefe](./imgs/react-16.4-life.jpg)
+
 ## 参考
 
 - [常见react面试题汇总（适合中级前端）](https://segmentfault.com/a/1190000016885832)
