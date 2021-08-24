@@ -12,7 +12,6 @@
 - [arr-flat 数组打平](./hand-written/arrflat.md)
 - [bind](./hand-written/bind.md)
 - [call](./hand-written/call.md)
-- [create-flow 实现](./hand-written/createFlow.md)
 - [debounce](./hand-written/debounce.md)
 - [indexOf](./hand-written/indexOf.md)
 - [instanceof](./hand-written/instanceof.md)
@@ -54,6 +53,7 @@
 - [sleep实现](./code-fun/sleep.md)
 - [this输出——代码题](./code-fun/this-run.md)
 - [treePath 获取](./code-fun/treePath.md)
+- [create-flow 实现](./hand-written/createFlow.md)
 
 其他：
 
